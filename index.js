@@ -1,4 +1,6 @@
-const ARRAY_NUMBERS = Array.from({ length: 300 }, (_, index) => {
+const optionsMaxLength = 300;
+
+const ARRAY_NUMBERS = Array.from({ length: optionsMaxLength }, (_, index) => {
   return index + 1;
 });
 
